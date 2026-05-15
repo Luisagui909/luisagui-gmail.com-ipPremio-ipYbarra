@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <style>
+  
+<style>
   @font-face {
     font-family: 'pluto_medium';
     src: url('pluto_medium.woff2') format('woff2');
@@ -16,19 +17,20 @@
     font-size: 1.6em;
     line-height: 1;
     color: #002147;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
   }
 
   .texto-evento .linea {
     display: inline-block;
-    background-color: #FFDD00;
-    padding: 1px 5px 2px 5px;
-    margin: 0;
-  }
-
-  .texto-evento .linea + .linea {
-    margin-top: 3px;
+    background-color: #FFF700;
+    padding: 2px 5px 4px 5px;
   }
 </style>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ybarra - Canjea tu premio</title>
@@ -124,9 +126,8 @@
 <img src="logo.png" alt="Logo Ybarra" style="max-width: 150px; display: block; margin: 0 auto;">
 
 
-  
 <div class="texto-evento">
-  <span class="linea">Sólo deslizar por el</span><br>
+  <span class="linea">Sólo deslizar por el</span>
   <span class="linea">personal del evento</span>
 </div>
 
